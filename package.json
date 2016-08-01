@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eschapp/hobbits_are_cool.git"
+    "url": "git+https://github.com/eschapp/marvel_react.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/eschapp/hobbits_are_cool/issues"
+    "url": "https://github.com/eschapp/marvel_react/issues"
   },
-  "homepage": "https://github.com/eschapp/hobbits_are_cool#readme",
+  "homepage": "https://github.com/eschapp/marvel_react#readme",
   "keywords": [],
   "dependencies": {
     "fetch": "^1.1.0",
