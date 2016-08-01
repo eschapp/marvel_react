@@ -1,17 +1,17 @@
 import React from 'react';
-import Title from './Title.jsx';
-import Poster from './Poster.jsx';
-import Desciption from './Description.jsx';
+import Comic from './Comic';
+
 
 export default class Comics extends React.Component {
   render () {
     return (
-        <div>
-          <h1>Hi There From the Comics</h1>
-          <Title />
-          <Poster />
-          <Desciption />
+        <div style={comicsStyle}>
+          <Comic />
         </div>
       )
   }
+}
+
+var comicsStyle = {
+  margin: '0 auto 0 auto',
 }

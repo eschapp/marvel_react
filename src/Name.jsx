@@ -1,5 +1,9 @@
 import React from 'react';
 
+var aStyle = {
+  textDecoration: 'none',
+  color: 'whitesmoke'
+}
 
 var search = 'https://www.google.com/#q='
 
@@ -7,27 +11,22 @@ var search = 'https://www.google.com/#q='
 //onMouseOver={{color:'grey'}} onMouseOut={color='whitesmoke'}
 //at some point
 
-export default class Title extends React.Component {
+export default class Name extends React.Component {
   render () {
     return (
-        <div style={titleStyle} >
-          <a style={aStyle} target={'_blank'} href={ search + encodeURIComponent(this.props.title)}>{this.props.title}</a>
+        <div style={nameStyle} >
+          <a style={aStyle} target={'_blank'} href={ search + encodeURIComponent(this.props.name)}>{this.props.name}</a>
         </div>
       )
   }
 }
 
-var titleStyle = {
+var nameStyle = {
   display: 'block',
   fontSize: '20px',
-  height: '60px',
+  height: '40px',
   margin:'0 auto',
   padding: '30px 0',
   textAlign: 'center',
   textDecoration: 'bold'
-}
-
-var aStyle = {
-  color: 'whitesmoke',
-  textDecoration: 'none'
 }
