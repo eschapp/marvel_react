@@ -19,9 +19,11 @@ export default class Hello extends Component {
 var titleStyle = {
   background: '#fff',
   border: '2px #891100 solid',
+  color: 'goldenrod',
   display: 'inline-block',
   fontSize: '20px',
   margin: '0 10px',
   padding: '10px',
   textAlign: 'center',
+  textDecoration: 'none'
 }

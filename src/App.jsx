@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router';
+import Breadcrumbs from 'react-router-breadcrumbs';
 
 import ComicIssueFetcher from './ComicIssueFetcher.jsx';
 import CharacterFetcher from './CharacterFetcher.jsx';
@@ -17,8 +18,7 @@ class App extends React.Component {
     return (
       <div style={appStyle}>
         <Hero />
-        <Hello>
-          {this.props.children}</Hello>
+        <Hello>{this.props.children}</Hello>
         <Footer />
       </div>
       )
